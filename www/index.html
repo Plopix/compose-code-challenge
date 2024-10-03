@@ -33,8 +33,11 @@
       <partial name="step-2"></partial>
       <netlify-edge-include href="https://compose-challenge.netlify.app/partials/add-image-cdn"></netlify-edge-include>
       <section>
-        <img src="/images/bay-bridge.jpg" alt="bay-bridge" />
+        <img src="/.netlify/images/?url=/images/bay-bridge.jpg&width=200" alt="A photo of the Bay Bridge in San Francisco" />
       </section>
+
+      <netlify-edge-include href="https://compose-challenge.netlify.app/partials/add-blob-storage">
+      </netlify-edge-include>
     </main>
     <netlify-edge-include href="https://compose-challenge.netlify.app/partials/footer"></netlify-edge-include>
   </body>
