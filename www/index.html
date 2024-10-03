@@ -22,26 +22,19 @@
     <link rel="stylesheet" href="https://example-styles.netlify.app/styles.css" />
     <link rel="stylesheet" href="/styles.css" />
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
-
-    TODO: Add your name to enter the prize draw
-    <meta name="author" content="Sébastien Morel">
-
-    
+    <meta name="author" content="Sébastien Morel">  
     <meta name="email" content="sebastien@crystallize.com">
   </head>
 
   <body>
     <partial name="header"></partial>
-
     <main>
       <partial name="step-1"></partial>
       <partial name="step-2"></partial>
-
-    <netlify-edge-include href="partials/header.html"></netlify-edge-include>
+      <netlify-edge-include href="https://compose-challenge.netlify.app/partials/add-image-cdn"></netlify-edge-include>
       <section>
         <img src="/images/bay-bridge.jpg" alt="bay-bridge" />
       </section>
-
     </main>
     <netlify-edge-include href="https://compose-challenge.netlify.app/partials/footer"></netlify-edge-include>
   </body>
